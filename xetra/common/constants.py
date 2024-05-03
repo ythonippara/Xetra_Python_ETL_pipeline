@@ -5,7 +5,7 @@ File to store constants
 from enum import Enum
 
 # Child classes of Enum class
-class S3FileTypes():
+class S3FileTypes(Enum):
     """
     Supported file types for S3BucketConnector
     """
